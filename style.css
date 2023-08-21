@@ -1,0 +1,117 @@
+.container-fluid{
+    padding: 0px; 
+    height:100vh;
+    width: 100vw; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+#scroll{
+    padding: 0px;
+}
+#above{
+    display :flex;
+    align-items: center; 
+    width: 100%; 
+    overflow:visible; 
+    background-color:#f7f9fa; 
+    padding: 20px 0px; 
+    margin: 0px;
+}
+#below{
+    display :flex; 
+    align-items: center; 
+    justify-content: space-evenly; 
+    width: 100%; color: #fff; 
+    overflow:visible; 
+    background-color:#f1f4f6; 
+    padding: 20px 0px; 
+    margin: 0px;
+}
+#aboveleft{
+    display: flex; 
+    align-items: center; 
+    justify-content: start;
+}
+.carDiv{
+    background-color: #ffffff; 
+    height:50px; 
+    width: 8%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 5px;
+    margin:0px 20px 0px 10px;
+}
+.carDiv img{
+    height: 40px; 
+    width: 40px; 
+    color: #c1488e;
+}
+.analyticsDiv p{
+    margin: 0px;
+}
+#aboveright{
+    display: flex; 
+    align-items: center; 
+    justify-content: end;
+}
+.starDiv{
+    background-color: #343a40; 
+    border-radius: 5px; 
+    height: 40px; 
+    width: 15%; 
+    display: grid; 
+    place-content: center;
+}
+.starDiv i{
+    color: #fff;
+}
+.buttonDiv{
+    margin: 20px;
+}
+#button{
+    background-color: #16aaff; 
+    border-radius: 5px; 
+    padding: 7px 10px; 
+    border-color: #16aaff;
+}
+.briefcase, .caret-down{
+    color: #fff; 
+    margin-right: 10px;
+}
+#button span{
+    color: #fff; 
+    margin-right: 10px;
+}
+#common{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    border-radius: 5px; 
+    padding: 5px; 
+    margin: 15px 15px;
+}
+.clientsLeft{
+    background-color: #1dd4e5;
+}
+.followersLeft{
+    background-color: #32b588;
+}
+.ordersLeft{
+    background-color: #414b76;
+}
+.col-7{
+    float: left; 
+    padding: 20px 0px 20px 20px;
+}
+small{
+    margin: 0px; 
+    color: #dcdcdc;
+}
+.ordersRight, .clientsRight, .followersRight{
+    padding:20px;
+}
+.ordersRight h2, .clientsRight h2, .followersRight h2{
+    float: right;
+}
